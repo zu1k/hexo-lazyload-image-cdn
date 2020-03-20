@@ -3,6 +3,9 @@
 if (!hexo.config.lazyload || !hexo.config.lazyload.enable) {
     return;
 }
+
+global.cdnconfig = hexo.config.lazyload.cdn
+
 if (hexo.config.lazyload.onlypost) {
     hexo.extend.filter.register('after_post_render', require('./lib/process').processPost);
 }

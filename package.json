@@ -1,6 +1,6 @@
 {
-  "name": "hexo-lazyload-image",
-  "version": "1.0.6",
+  "name": "hexo-lazyload-image-cdn",
+  "version": "1.1.1",
   "description": "a hexo plugin which is used to have all images support lazyload, with the help of this functionality, it will improve lots of the loading proformance.",
   "main": "index.js",
   "scripts": {
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Troy-Yang/hexo-lazyload-image.git"
+    "url": "git+https://github.com/zu1k/hexo-lazyload-image-cdn.git"
   },
   "bugs": {
-    "url": "https://github.com/Troy-Yang/hexo-lazyload-image/issues"
+    "url": "https://github.com/zu1k/hexo-lazyload-image-cdn/issues"
   },
   "keywords": [
     "hexo",
     "hexo plugin",
     "image lazyload"
   ],
-  "author": "Troy Yang",
+  "author": "Troy Yang & zu1k",
   "license": "ISC",
   "dependencies": {
     "uglify-js": "^3.0.27"
@@ -28,5 +28,10 @@
     "eslint": "^4.19.1",
     "hexo-fs": "^2.0.0",
     "jest": "^24.9.0"
+  },
+  "homepage": "https://github.com/zu1k/hexo-lazyload-image-cdn#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }

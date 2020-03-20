@@ -1,6 +1,6 @@
-# hexo-lazyload-image
+# hexo-lazyload-image-cdn
 
-**hexo-lazyload-image** is a hexo plugin which is used to have all images support lazyload automatically. With the help of this functionality, it will improve lots of the loading proformance..
+**hexo-lazyload-image-cdn** is a hexo plugin which is used to have all images support lazyload automatically. With the help of this functionality, it will improve lots of the loading proformance..
 
 All the lazy-load images only shows up when they are within current viewport.
 
@@ -9,7 +9,7 @@ All the lazy-load images only shows up when they are within current viewport.
 ## Install
 
 ```bash
-$ npm install hexo-lazyload-image --save
+$ npm install hexo-lazyload-image-cdn --save
 ```
 
 ## Usage
@@ -21,6 +21,9 @@ lazyload:
   enable: true 
   onlypost: false
   loadingImg: # eg ./images/loading.gif
+  cdn:
+    enabled: false
+    url: https://cdn.com
 ```
 **onlypost**
 - If true, only the images from post or page will support lazy-load.
