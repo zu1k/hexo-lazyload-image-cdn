@@ -1,6 +1,6 @@
 {
   "name": "hexo-lazyload-image-cdn",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "a hexo plugin which is used to have all images support lazyload, it will improve lots of the loading proformance.",
   "main": "index.js",
   "scripts": {
